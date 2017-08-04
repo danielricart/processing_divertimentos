@@ -1,3 +1,5 @@
+package com.danielillu;
+
 import processing.core.PApplet;
 
 import java.util.concurrent.TimeUnit;
@@ -10,7 +12,6 @@ public class ConceptualTumbleweed extends PApplet {
     public void settings() {
         //smooth(2);
         size(300, 200);
-
     }
 
     public void draw() {
@@ -39,6 +40,6 @@ public class ConceptualTumbleweed extends PApplet {
     }
 
     public static void main(String... args) {
-        PApplet.main("ConceptualTumbleweed");
+        PApplet.main("com.danielillu.ConceptualTumbleweed");
     }
 }
