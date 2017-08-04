@@ -31,3 +31,6 @@ hs_err_pid*
 
 # IDE project structure file
 *.iml
+
+# maven output dir
+target/*
